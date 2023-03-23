@@ -1,0 +1,294 @@
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+
+
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: -77px;
+  width: 582px;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  width: 480px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 480px;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+  /* width: 480px; */
+  width: 480px;
+
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  max-width: 480px;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+}
+
+/* search butonunu ayarladı */
+ .googlesearch {
+  margin: 11px 4px;
+  margin-right: 20px !important;
+  margin-left: 10px;
+  padding: 0px 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  border: 1px  #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+  /* box-shadow: 2px 2px gray;
+  box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+  /* transition: box-shadow .3s; */
+}
+
+/* search butonuna gölge ekledim */
+.googlesearch:hover {
+  box-shadow: 1px 2px rgba(33,33,33,.2); 
+}
+
+/* feeling lucky butonunu ayarladım */
+.feelinglucky {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: 1px  #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
+  margin-top: 11px;
+}
+
+/* gölge ekledim */
+.feelinglucky:hover {
+  box-shadow: 1px 2px rgba(33,33,33,.2); 
+}
+
+/* List noktalarını kaldırdım. */
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background-color: #f2f2f2;
+  list-style-type: none;  
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+
+path {
+  width: 24px;
+  height: 24px;
+} 
+
+/* profile fotoğrafını radius ile düzenliyorum */
+
+#profile {
+  border-radius: 10px;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.headerli {
+  float: left;
+}
+
+.search-area {
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  border-bottom-right-radius: 22px;
+  border-bottom-left-radius: 22px;
+  width: 480px;
+  border: 0.1;
+}
+
+input {
+  border: 0;
+}
+
+
+/* Mikrofon simgesini düzenledim. */
+.goxjub {
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #202124;
+  cursor: pointer;
+  line-height: 44px;
+  height: 24px;
+  width: 24px;
+  vertical-align: right;
+  margin-top: 6px;
+  margin-left: -325%;
+}
+
+#about {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+}
+
+#store {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  padding-left: 55px;
+}
+
+#sign {
+  text-decoration: none;
+  color: #fff;
+  padding: 9px 15px;
+  min-width: 80px;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-right: 8px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-sizing: border-box;
+  float: right;
+}
+
+
+
